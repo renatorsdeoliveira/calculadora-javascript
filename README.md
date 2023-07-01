@@ -20,9 +20,7 @@ Este projeto foi criado com a intenção de simular uma calculadora, podendo faz
 ```bash
 # clonar repositório
 git clone https://github.com/renatorsdeoliveira/calculadora-javascript.git
-
-
-
+```
 
 # Autor
 
