@@ -1,7 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Martian+Mono&display=swap');
 :root{
     --color-black: #000000;
     --color-white: #ffffff;
-    --font-default: "Arial, Helvetica, sans-serif"
+    --color-gray: #e3e3e3;
+    --font-default: 'Agdasima', sans-serif;
+    --font-secondary: 'Martian Mono', monospace;
 }
 *{
     margin: 0;
@@ -24,30 +28,36 @@
     padding: 15px;
 }
 .fundo .calculadora h1{
+    font-family: var(--font-default);
+    color: var(--color-gray);
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 36px;
+    letter-spacing: 4px;
     margin-bottom: 20px;
     margin-top: 5px;
 }
 .fundo .calculadora .botao{
+    font-family: var(--font-secondary);
     width: 50px;
     height: 50px;
-    font-size: 25px;
+    font-size: 22px;
     cursor: pointer;
     margin: 3px;
     background-color: rgb(31,31,31);
     border: none;
-    color: var(--color-white);
+    color: var(--color-gray);
 }
 .fundo .calculadora .botao:hover{
     background-color: var(--color-black);
 }
 .fundo .calculadora #resultado{
-    background-color: var(--color-white);
+    font-family: var(--font-secondary);
+    background-color: var(--color-gray);
     width: 207px;
     height: 30px;
     margin: 5px;
-    font-size: 25px;
+    line-height: 1.4;
+    font-size: 22px;
     color: var(--color-black);
     text-align: right;
     padding: 5px;
